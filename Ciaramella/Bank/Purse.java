@@ -1,4 +1,4 @@
-package Bank;
+package Programmazione.Ciaramella.Bank;
 
 import java.util.ArrayList;
 

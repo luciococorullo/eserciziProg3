@@ -1,8 +1,8 @@
-package DesignPatterns.StructuralPatterns.Adapter;
+package Programmazione.DesignPatterns.StructuralPatterns.Adapter;
 
 public class LegacyRectangle {
-    
-    public void draw(int x, int y, int w, int h){
+
+    public void draw(int x, int y, int w, int h) {
         System.out.println("rectangle at (" + x + ',' + y + ") with width " + w + " and height " + h);
     }
 }

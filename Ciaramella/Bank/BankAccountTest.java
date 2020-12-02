@@ -1,4 +1,4 @@
-package Bank;
+package Programmazione.Ciaramella.Bank;
 
 public class BankAccountTest {
     public static void main(String[] args) {
@@ -13,7 +13,6 @@ public class BankAccountTest {
         System.out.println(harryChecking.getBalance());
         System.out.print(lushocheck.getBalance());
 
-        
     }
 
 }

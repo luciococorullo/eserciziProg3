@@ -1,4 +1,4 @@
-package esercitazioneLusho;
+package Programmazione.Ciaramella.esercitazioneLusho;
 
 public class MyPointTest {
     public static void main(String[] args) {

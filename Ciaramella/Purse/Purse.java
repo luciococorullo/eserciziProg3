@@ -1,4 +1,4 @@
-package Purse;
+package Programmazione.Ciaramella.Purse;
 
 public class Purse {
     // costruttore pubblico

@@ -8,7 +8,7 @@ definire una classe myPoint che ha due variabili private x e y a ha come metodi
 - calcolo la distanza tra x e y
 
 */
-package esercitazioneLusho;
+package Programmazione.Ciaramella.esercitazioneLusho;
 
 public class MyPoint {
     public MyPoint(int x, int y) {

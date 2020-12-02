@@ -1,4 +1,4 @@
-package Bank;
+package Programmazione.Ciaramella.Bank;
 
 class Coin implements Measurable {
 

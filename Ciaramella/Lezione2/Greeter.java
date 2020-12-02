@@ -1,4 +1,4 @@
-package Lezione2;
+package Programmazione.Ciaramella.Lezione2;
 
 public class Greeter {
     // costruttore, deve avere lo stesso nome della classe generale.

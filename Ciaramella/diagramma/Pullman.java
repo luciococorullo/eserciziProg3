@@ -1,3 +1,4 @@
+package Programmazione.Ciaramella.diagramma;
 /*
  * package diagramma;
  * 

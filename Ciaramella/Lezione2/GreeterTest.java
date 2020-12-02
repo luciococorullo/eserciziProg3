@@ -1,4 +1,4 @@
-package Lezione2;
+package Programmazione.Ciaramella.Lezione2;
 
 public class GreeterTest {
     public static void main(String[] args) {

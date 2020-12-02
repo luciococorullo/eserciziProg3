@@ -1,4 +1,4 @@
-package Thread;
+package Programmazione.Thread;
 
 public class ThreadController {
 
