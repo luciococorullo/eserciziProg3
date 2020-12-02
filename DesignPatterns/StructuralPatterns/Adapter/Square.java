@@ -1,4 +1,4 @@
-package Programmazione.DesignPatterns.StructuralPatterns.Adapter;
+package DesignPatterns.StructuralPatterns.Adapter;
 
 public class Square implements Shape {
     private LegacySquare adaptee = new LegacySquare();

@@ -1,4 +1,4 @@
-package Programmazione.StreamIO;
+package StreamIO;
 //NON COMPLETO
 
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package Programmazione.Ciaramella.Lezione2;
+package Ciaramella.Lezione2;
 
 public class AritmeticaTest {
     public static void main(String[] args) {

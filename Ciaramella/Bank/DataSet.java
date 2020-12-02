@@ -1,4 +1,4 @@
-package Programmazione.Ciaramella.Bank;
+package Ciaramella.Bank;
 
 public class DataSet {
     public DataSet() {

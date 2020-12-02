@@ -1,4 +1,4 @@
-package Programmazione.StreamIO;
+package StreamIO;
 
 //PRENDE DUE FILE COME INPUT E COPIA IL PRIMO NEL SECONDO
 import java.io.FileReader;

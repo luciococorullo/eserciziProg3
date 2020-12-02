@@ -1,4 +1,4 @@
-package Programmazione.Ciaramella.Bank;
+package Ciaramella.Bank;
 
 public class SavingsAccountTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Programmazione.Thread;
+package Thread;
 
 public class Runner implements Runnable {
     boolean timeToQuit = false;

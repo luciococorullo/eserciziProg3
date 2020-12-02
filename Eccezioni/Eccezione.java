@@ -1,4 +1,4 @@
-package Programmazione.Eccezioni;
+package Eccezioni;
 
 //primo codice che causa errori se riceve un input diverso da un intero
 public class Eccezione {

@@ -1,4 +1,4 @@
-package Programmazione.Eccezioni;
+package Eccezioni;
 
 //prima soluzione con il costrutto try-catch
 public class TryCatch {

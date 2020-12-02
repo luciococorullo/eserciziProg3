@@ -1,4 +1,4 @@
-package Programmazione.DesignPatterns.StructuralPatterns.Adapter;
+package DesignPatterns.StructuralPatterns.Adapter;
 
 public class Rectangle implements Shape {
 

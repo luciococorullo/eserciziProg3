@@ -1,4 +1,4 @@
-package Programmazione.Thread;
+package Thread;
 
 public class ThreadTester {
   public static void main(String args[]) {

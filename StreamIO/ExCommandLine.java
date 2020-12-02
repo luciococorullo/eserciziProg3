@@ -1,4 +1,4 @@
-package Programmazione.StreamIO;
+package StreamIO;
 
 //ESERCIZIO PROPERTIES
 import java.util.Properties;

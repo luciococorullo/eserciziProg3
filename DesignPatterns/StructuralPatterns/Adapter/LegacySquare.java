@@ -1,4 +1,4 @@
-package Programmazione.DesignPatterns.StructuralPatterns.Adapter;
+package DesignPatterns.StructuralPatterns.Adapter;
 
 public class LegacySquare {
     public void draw(int x, int y, int w, int h) {

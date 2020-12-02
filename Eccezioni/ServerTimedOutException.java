@@ -1,4 +1,4 @@
-package Programmazione.Eccezioni;
+package Eccezioni;
 
 public class ServerTimedOutException extends Exception {
     private int port;

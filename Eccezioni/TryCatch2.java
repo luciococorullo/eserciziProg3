@@ -1,4 +1,4 @@
-package Programmazione.Eccezioni;
+package Eccezioni;
 
 //secondo metodo che utilizza il try catch, questa volta nel costrutto
 //inseriamo soltanto la parte che puo generare errori riuscendo cosi

@@ -1,4 +1,4 @@
-package Programmazione.Ciaramella.Lezione2;
+package Ciaramella.Lezione2;
 
 public class Aritmetica {
     public int Somma(int a, int b) {
