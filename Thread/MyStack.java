@@ -6,12 +6,12 @@ public class MyStack {
     private int index = 0;
     private char[] data = new char[6];
 
-    public void push(char c) {
+    public synchronized void push(char c) {
         data[index] = c;
         index++;
     }
 
-    public char pop() {
+    public synchronized char pop() {
         index--;
         return data[index];
     }

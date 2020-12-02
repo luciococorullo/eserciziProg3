@@ -16,23 +16,30 @@ public class ThreadTester {
     runnThread.start();
 
     // utilizzo il metodo join
+
     try {
       t.join();
     } catch (InterruptedException e) {
       System.err.println("Interrupted exception on join");
     }
+
+    try {
+      System.out.println("yooooo " + t.getState());
+      t.wait();
+    } catch (Exception e) {
+      System.out.println("Interrupted exception on wait");
+    }
   }
 }
 
 class HelloRunner implements Runnable {
-
   int i;
 
   public void run() {
     i = 0;
     while (true) {
       System.out.println("Hello " + i++);
-      if (i == 20) {
+      if (i == 5) {
         break;
       }
     }
