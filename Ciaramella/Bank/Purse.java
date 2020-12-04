@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Purse {
     public Purse() {
-        coins = new ArrayList();
+        coins = new ArrayList<Coin>();
     }
 
     public void add(Coin aCoin) {
@@ -63,5 +63,5 @@ public class Purse {
         return max;
     }
 
-    private ArrayList coins;
+    private ArrayList<Coin> coins;
 }

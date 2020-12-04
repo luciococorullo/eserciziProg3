@@ -13,10 +13,9 @@ public class ExCommandLine {
         }
         Properties properties = System.getProperties();
 
-        /*
-         * for(String propertyName:properties.stringPropertyNames()){
-         * System.out.println(propertyName); }
-         */
+        for (String propertyName : properties.stringPropertyNames()) {
+            System.out.println(propertyName);
+        }
 
         String type = properties.getProperty("type");
         System.out.println(type);

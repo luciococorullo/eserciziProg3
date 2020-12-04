@@ -1,6 +1,10 @@
 package Eccezioni;
 
 public class ServerTimedOutException extends Exception {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     private int port;
 
     public ServerTimedOutException(String message, int port) {

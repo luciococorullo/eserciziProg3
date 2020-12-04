@@ -1,3 +1,5 @@
+package Thread.ProducerConsumer;
+
 public class Producer implements Runnable {
     private SyncStack syncStack;
     private int num; // numero identificativo del producer

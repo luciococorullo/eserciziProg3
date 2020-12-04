@@ -1,14 +1,11 @@
 package StreamIO;
-//NON COMPLETO
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class ExCopyTextLineByLine {
     public static void main(String[] args) {
-        if (args.length != 3) {
-            System.err.println("Java ExCopyText src dst");
+        if (args.length != 2) {
+            System.err.println("java ExCopyText src dst");
             System.err.println("Copy text file src to dst");
             System.exit(-1);
         }
@@ -19,17 +16,38 @@ public class ExCopyTextLineByLine {
         try {
             FileReader fileReader = new FileReader(srcFileName);
 
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
             try {
                 FileWriter fileWriter = new FileWriter(dstFileName);
-            } catch (IOException e) {
-                System.err.println(e.getMessage());
+
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+                String line;
+
+                try {
+                    line = bufferedReader.readLine();
+                    while (line != null) {
+                        bufferedWriter.write(line);
+                        bufferedWriter.newLine();
+                        line = bufferedReader.readLine();
+                    }
+                } catch (IOException ex) {
+
+                }
+
+                bufferedWriter.flush();
+                bufferedWriter.close();
+
+                fileWriter.close();
+            } catch (IOException ex) {
+                System.err.println(ex.getMessage());
                 System.exit(-1);
             }
-
-        } catch (IOException e) {
-            System.err.println(e.getMessage());
+            bufferedReader.close();
+        } catch (IOException ex) {
+            System.err.println(ex.getMessage());
             System.exit(-1);
         }
     }
-
 }

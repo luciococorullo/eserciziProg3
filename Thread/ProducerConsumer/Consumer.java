@@ -1,3 +1,5 @@
+package Thread.ProducerConsumer;
+
 public class Consumer implements Runnable {
     private SyncStack syncStack;
     private int num;
