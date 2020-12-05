@@ -12,7 +12,7 @@ public class SyncStack {
     }
 
     public synchronized char pop() {
-        char c;
+        // char c;
 
         while (buffer.size() == 0) {
             try {
