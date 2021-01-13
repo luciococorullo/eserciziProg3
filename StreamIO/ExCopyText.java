@@ -39,7 +39,7 @@ public class ExCopyText {
                 System.err.println(e.getMessage());
                 System.exit(-1);
             }
-
+            fileReader.close();
         } catch (IOException e) {
             System.err.println(e.getMessage());
             System.exit(-1);
